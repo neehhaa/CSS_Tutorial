@@ -1,0 +1,46 @@
+.div1{
+    background-color: pink; /* using color directly will make text opacity too with background*/
+    width: 800px;
+    height: 100px;
+}
+.div2{
+    background-color: rebeccapurple; /* using color directly will make text opacity too with background*/
+    opacity: 0.3;
+    width: 800px;
+    height: 100px;
+}
+.div3{
+    background-color:rgba(100,100,200,0.7); /* rgba is used for text visibility using opacity*/
+    width: 800px;
+    height: 100px;
+}
+.div4{
+    background-image: url(sunflower.jpeg); /*automatic on repeat mode*/
+    width: 800px;
+    height: 500px;
+}
+.div5{
+    background-image: url(aesthetic.jpg); /*repeat y-axis(can use x-axis too)*/    
+    height: 500px;
+    background-repeat: repeat-y;
+}
+.div6{
+    background-image: url(sunflower.jpeg); /*no repeat mode*/
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+
+.div7{
+    background-image: url(sunflower.jpeg); 
+    background-repeat: no-repeat;
+    background-position: right top; /*position on top right */
+    background-attachment: fixed; /*fixed or scroll*/
+    width: 100%;
+    height: 500px;   
+}
+.div9{
+    background: pink url(aesthetic.jpg) no-repeat fixed center; /* background-color background-image background-repeat background-attachment background-position */
+    width: 100%;
+    height: 500px; 
+}
